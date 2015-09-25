@@ -1,0 +1,3 @@
+include ':app'
+include ':DJI-SDK'
+project(':DJI-SDK').projectDir=new File('../DJI-SDK')
